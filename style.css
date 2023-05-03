@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #344151;
+    gap: 20px;
+}
+.text{
+    font-size: larger;
+    color: #0398d4;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    font-size: 25px;
+    color: #344151;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+button{
+    border-radius: 2px;
+}
